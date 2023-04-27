@@ -8,3 +8,5 @@ configMapGenerator:
   literals:
     - altGreeting=Good Morning!
     - enableRisky="false"
+patchesStrategicMerge:
+- custom_message.yaml
